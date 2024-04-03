@@ -13,8 +13,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>BasicApplication</name>
 	<description>Demo project for Spring Boot</description>
-	<properties>
+
+		<properties>
+  <sonar.organization>samplesonarqube</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	<sonar.login>${env.SONAR_TOKEN}</sonar.login>
 		<java.version>11</java.version>
+		
 	</properties>
 	<dependencies>
 		<dependency>
