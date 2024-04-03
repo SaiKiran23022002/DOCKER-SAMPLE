@@ -42,8 +42,9 @@
             <configuration>
                 <release>11</release>
             </configuration>
-        </plugin>
+        	</plugin>
 		</plugins>
+	<finalName>spring-boot-docker</finalName>
 	</build>
 
 </project>
